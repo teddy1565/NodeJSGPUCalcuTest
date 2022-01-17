@@ -16,4 +16,4 @@ function normalMatrix(a,b) {
 }
 
 let result = normalMatrix([1,2],[3,4]);
-console.log(result)
+console.log(result);
