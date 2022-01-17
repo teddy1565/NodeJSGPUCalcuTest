@@ -9,13 +9,13 @@ function normalMatrix(a,b) {
             sum += a[this.thread.y][i] * b[i][this.thread.x];
         }
         return sum;
-    }).setOutput([512,512]);
+    }).setOutput([8192,8192]);
 
     return multiplyMatrix(a,b);
 }
 let a = [];
 let b = [];
-for (let i=0;i<512;i++) {
+for (let i=0;i<8192;i++) {
     a.push(parseInt(Math.random()*100));
     b.push(parseInt(Math.random()*100));
 }
